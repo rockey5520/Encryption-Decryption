@@ -12,6 +12,13 @@ import java.util.stream.IntStream;
 public class Main {
 
   public static void main(String[] args) {
+    //stage 2
+
+    
+
+
+
+    /*//stage 1
     String word = "we found a treasure!";
     ArrayList<Character> straight = IntStream.rangeClosed('a', 'z').mapToObj(c -> (char) c)
         .collect(Collectors.toCollection(ArrayList::new));
@@ -35,8 +42,9 @@ public class Main {
       }
       finalStrings.add(charsReversed.stream().map(x->x.toString()).collect(Collectors.joining()));
     }
-    String encoded = finalStrings.stream().map(Object::toString).collect(Collectors.joining(" "));
+    String encoded = finalStrings.stream().map(Object::toString).collect(Collectors.joining(" "))
+        .toString();
 
-    System.out.println(encoded);
+    System.out.println(encoded);*/
   }
 }
